@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Launcher - Minecraft Launcher Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-section">
+                    <img src="logo.png" alt="Nova Launcher Logo" class="logo">
+                    <h1 class="brand-name">Nova Launcher</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#features" class="nav-link">Recursos</a></li>
+                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#github" class="nav-link">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background" style="background-image: url('minecraft_background.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Nova Launcher</h2>
+            <p class="hero-subtitle">O launcher de Minecraft moderno e poderoso que você procurava</p>
+            <p class="hero-description">Desenvolvido em Rust com uma interface elegante e intuitiva. Suporte completo para Vanilla, Fabric, Quilt, Forge e NeoForge.</p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn btn-primary">Baixar Agora</a>
+                <a href="#github" class="btn btn-secondary">Ver no GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Recursos Principais</h2>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3 class="feature-title">Múltiplos Loaders</h3>
+                    <p class="feature-description">Suporte completo para Vanilla, Fabric, Quilt, Forge e NeoForge. Escolha o loader que melhor se adequa ao seu estilo de jogo.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Performance Otimizada</h3>
+                    <p class="feature-description">Desenvolvido em Rust para máxima performance e eficiência. Inicialização rápida e consumo mínimo de recursos.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3 class="feature-title">Controle Total</h3>
+                    <p class="feature-description">Customize a alocação de memória, escolha seu executável Java ou use o do PATH. Controle total sobre suas configurações.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Barra de Progresso</h3>
+                    <p class="feature-description">Acompanhe cada etapa do processo: instalação, download e inicialização com barras de progresso detalhadas.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="feature-title">Versões Completas</h3>
+                    <p class="feature-description">Acesso à lista completa de versões do Minecraft: releases, snapshots, betas antigas e alphas antigas.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">👤</div>
+                    <h3 class="feature-title">Modo Offline</h3>
+                    <p class="feature-description">Jogue com username customizado em modo offline. Sem necessidade de conta Mojang para começar a jogar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Baixe o Launcher</h3>
+                    <p>Faça o download do Nova Launcher para sua plataforma.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Configure suas Preferências</h3>
+                    <p>Escolha o loader, versão e alocação de memória desejada.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Aguarde a Instalação</h3>
+                    <p>O launcher fará o download automático de todos os arquivos necessários.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Jogue!</h3>
+                    <p>Clique em jogar e divirta-se com o Minecraft.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Details Section -->
+    <section class="tech-details">
+        <div class="container">
+            <h2 class="section-title">Detalhes Técnicos</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>Tecnologia</h3>
+                    <p><strong>Linguagem:</strong> Rust</p>
+                    <p><strong>GUI:</strong> Iced</p>
+                    <p><strong>Core:</strong> mc-launcher-core</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Loaders Suportados</h3>
+                    <ul class="loader-list">
+                        <li>✓ Vanilla</li>
+                        <li>✓ Fabric</li>
+                        <li>✓ Quilt</li>
+                        <li>✓ Forge</li>
+                        <li>✓ NeoForge</li>
+                    </ul>
+                </div>
+                <div class="tech-item">
+                    <h3>Versões Disponíveis</h3>
+                    <ul class="version-list">
+                        <li>✓ Releases</li>
+                        <li>✓ Snapshots</li>
+                        <li>✓ Betas Antigas</li>
+                        <li>✓ Alphas Antigas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Baixar Nova Launcher</h2>
+            <p class="download-subtitle">Escolha sua plataforma para começar</p>
+            <div class="download-buttons">
+                <a href="https://github.com/arthurlamonattopro/Nova-launcher/releases" class="download-btn windows">
+                    <span class="platform-icon">🪟</span>
+                    <span class="platform-name">Windows</span>
+                </a>
+                <a href="https://github.com/arthurlamonattopro/Nova-launcher/releases" class="download-btn linux">
+                    <span class="platform-icon">🐧</span>
+                    <span class="platform-name">Linux</span>
+                </a>
+                <a href="https://github.com/arthurlamonattopro/Nova-launcher/releases" class="download-btn macos">
+                    <span class="platform-icon">🍎</span>
+                    <span class="platform-name">macOS</span>
+                </a>
+            </div>
+            <p class="download-note">Todos os downloads estão disponíveis no GitHub. O Nova Launcher é de código aberto e gratuito.</p>
+        </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section class="getting-started">
+        <div class="container">
+            <h2 class="section-title">Começando</h2>
+            <div class="code-block">
+                <p class="code-title">Para executar o launcher a partir do código-fonte:</p>
+                <pre><code>cargo run</code></pre>
+                <p class="code-note">Nota: O primeiro lançamento de uma versão do Minecraft pode levar um tempo enquanto os assets, bibliotecas, natives e arquivos do cliente são baixados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github" class="github-section">
+        <div class="container">
+            <h2 class="section-title">Código Aberto</h2>
+            <p class="github-description">Nova Launcher é um projeto de código aberto. Você pode contribuir, reportar bugs ou fazer sugestões no repositório do GitHub.</p>
+            <a href="https://github.com/arthurlamonattopro/Nova-launcher" class="btn btn-primary github-btn">Visitar GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nova Launcher</h4>
+                    <p>Um launcher de Minecraft moderno desenvolvido em Rust.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#github">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="https://github.com/arthurlamonattopro/Nova-launcher">GitHub Repository</a></li>
+                        <li><a href="https://github.com/arthurlamonattopro">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nova Launcher. Todos os direitos reservados. Minecraft é marca registrada da Mojang Studios.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
